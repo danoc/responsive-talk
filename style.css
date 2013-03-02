@@ -28,13 +28,21 @@ li {
 
 header, article { padding: 0 20px; }
 
-
 /* === Layout === */
 
 #main {
 	background: #f9f9f9;
 	float: left;
 	width: 624px;
+}
+
+figure {
+	float: right;
+	margin: 0 0 10px 15px;
+}
+
+figure img {
+	width: 300px;
 }
 
 #sidebar {
