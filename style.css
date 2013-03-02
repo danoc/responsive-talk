@@ -1,0 +1,44 @@
+body {
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: .95em;
+}
+
+#container {
+	margin: 0 auto;
+	width: 960px;
+}
+
+/* === Basic Styling === */
+
+ul {
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	list-style: none;
+	padding: 10px 15px;
+}
+
+li {
+	display: inline-block;
+	padding-right: 20px;
+}
+
+#sidebar section {
+	padding: 10px;
+}
+
+header, article { padding: 0 20px; }
+
+
+/* === Layout === */
+
+#main {
+	background: #f9f9f9;
+	float: left;
+	width: 624px;
+}
+
+#sidebar {
+	background: #feffea;
+	float: left;
+	width: 336px;
+}
