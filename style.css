@@ -5,8 +5,9 @@ body {
 
 #container {
 	margin: 0 auto;
-	width: 960px;
+	max-width: 960px;
 }
+
 
 /* === Basic Styling === */
 
@@ -33,7 +34,7 @@ header, article { padding: 0 20px; }
 #main {
 	background: #f9f9f9;
 	float: left;
-	width: 624px;
+	width: 65%;
 }
 
 figure {
@@ -45,8 +46,36 @@ figure img {
 	width: 300px;
 }
 
+img, embed, object, video {
+	max-width: 100%;
+}
+
 #sidebar {
 	background: #feffea;
 	float: left;
-	width: 336px;
+	width: 35%;
+}
+
+
+/* === Media Queries ===*/
+
+@media only screen and (max-width : 680px) {
+	figure {
+		margin: 0;
+	}
+	figure img {
+		display: block;
+		width: 100%;
+	}
+}
+
+@media only screen and (max-width : 408px) {
+	#main {
+		display: block;
+		width: 100%;
+	}
+	#sidebar {
+		display: block;
+		width: 100%;
+	}
 }
